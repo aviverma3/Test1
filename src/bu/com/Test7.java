@@ -21,6 +21,7 @@ public class Test7 {
     public static int findSmallerInRight(String A, int low, int high){
         int countRight = 0;
         for(int i = low + 1; i <= high; i++){
+			System.out.println("its only for testing ");
             if(A.charAt(i) < A.charAt(low))
                 countRight++;
         }
